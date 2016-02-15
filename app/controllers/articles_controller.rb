@@ -3,7 +3,6 @@ class ArticlesController < ApplicationController
     @article = Article.all
   end
   
-  
   def new
     @article = Article.new
     
